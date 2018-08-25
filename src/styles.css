@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    
+}
+ul {
+  list-style: none;
+    padding-left: 10px;
+}
+#particles-js{
+    background-image: url('/resources/backgroundImage.jpg');
+    
+}
+
+.home_about_link, .home_contact_link, .home_skills_link, .home_projects_link{
+    color:#3ce6e6;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+    margin: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.btext{
+    
+    position: absolute;
+    text-align: center;
+    top: 13%;
+    width: 100%;
+    line-height: 0.4em;
+}
+.imgDiv {
+    width: 100%;    
+    position: fixed;
+    top: 0;
+    background: url('/resources/homebg.jpg') center top no-repeat;
+    padding: 8px;
+     height: 100vh;
+}
+.aboutMeText{
+    color: #ffffe3;
+    font-size: 22px;
+}
+
+.sn_scroll_btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+  z-index: 999999999;
+    top: 53px;
+}
+.aboutMeDiv{
+   /*  top: 53px */
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}   
+.test {
+    animation: MoveUpDown 2s linear infinite;
+    position: absolute;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 30px;
+  }
+}
+.myExperiencesList{
+    padding-left: 6px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid #4a5038;;
+    font-size: 22px;
+    margin-top: 8px;
+    background-color: #80808052;
+}
+.count{
+    color: orange;
+    font-size: 36px;
+}
+.aboutMeHighlights{
+    
+    color: #29036d;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.skillsHeader{
+    text-align: center;
+    color: white
+    
+}
