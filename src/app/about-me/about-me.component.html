@@ -1,0 +1,75 @@
+<div class="wrapper" style="  height: 100vh; ">
+  
+  <section class="imgDiv">
+    <div class="">
+      <a routerLink="/" style="color: #ffef;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid #ffef;
+    border-radius: 24px;
+   
+    position: relative;float: right;">Back To <span class="glyphicon glyphicon-home"></span></a>
+    </div>
+      <div>
+        <div class="container-fluid">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="about_img" style="text-align: center">
+            <img src="resources/23496.jpg" class="img-fluid img-circle" alt="About" style="width: 250px; padding-top: 40px;">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aboutMeDiv">
+          <div class="text-center">
+            <h1 style="    font-family: sans-serif;
+    border-radius: 13px;
+    border-bottom: 4px solid #3d1a94;
+    padding-top: 0px;font-weight: 600;
+    color: #1b3846fa;">ABOUT ME</h1>
+          </div>
+          <div>
+            <p class="aboutMeText"> I am <span class="aboutMeHighlights">Darshan Baranwal</span>.</p>
+              <p class="aboutMeText">I am a <span class="aboutMeHighlights">web developer</span>, <span class="aboutMeHighlights">designer</span> , <span class="aboutMeHighlights">freelancer</span>, <span class="aboutMeHighlights">tech enthusiast and web consultant</span>.</p>
+                <p class="aboutMeText"> From last 3 years of my experience I have learned and gets my hands dirty on several cross cutting technologies for numerous projects.</p>
+                <p class="aboutMeText"> This project(myResume) I have created on Angular 6 for which I am very excited as it includes lots of use of new JS tools.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+  <section style="background: chocolate;margin-top: 100vh; position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:1000;">
+    <div class="sn_scroll_btn slideInDown ">
+      <img src="resources/scroll.png" alt="" class="test">
+    </div>
+    <div class="container">
+      <h2 style="border-bottom: 4px solid #3d1a94;    font-weight: 600;
+    color: #1b3846fa;">My Experiences</h2>
+      <div class="col-sm-12 experiences">
+          <ul >
+            <li *ngFor="let exp of myExperiences; let i=index" class="myExperiencesList"><span class="count">{{i+1}}.</span>&nbsp;&nbsp;<span class="experienceText">{{exp}}</span></li>
+            
+          </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 style="border-bottom: 4px solid #3d1a94;    font-weight: 600;
+        color: #1b3846fa;">Roles And Responsibilities</h2>
+      <div class="col-sm-12 experiences">
+        <ul>
+          <li>
+            <span ></span>
+            <span></span>
+          </li>
+    
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+</div>
